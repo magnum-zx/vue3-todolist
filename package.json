@@ -10,22 +10,21 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
-    "@unocss/preset-attributify": "^0.52.1",
-    "@unocss/preset-icons": "^0.52.1",
-    "@unocss/reset": "^0.52.1",
+    "daisyui": "^2.51.6",
     "pinia": "^2.0.36",
     "vue": "^3.3.2",
     "vue-router": "^4.2.0"
   },
   "devDependencies": {
     "@rushstack/eslint-patch": "^1.2.0",
-    "@unocss/preset-uno": "^0.52.1",
     "@vitejs/plugin-vue": "^4.2.3",
     "@vue/eslint-config-prettier": "^7.1.0",
+    "autoprefixer": "^10.4.14",
     "eslint": "^8.39.0",
     "eslint-plugin-vue": "^9.11.0",
+    "postcss": "^8.4.23",
     "prettier": "^2.8.8",
-    "unocss": "^0.52.1",
+    "tailwindcss": "^3.3.2",
     "vite": "^4.3.5"
   }
 }
