@@ -2,32 +2,32 @@
  * @Author: magnum_zx
  * @Date: 2023-05-23 13:13:15
  * @LastEditors: wuzx wzx19980321@163.com
- * @LastEditTime: 2023-05-25 21:32:20
+ * @LastEditTime: 2023-05-30 20:17:22
  * @FilePath: /vue3-todolist/src/App.vue
  * @Description: 
  * 
  * Copyright (c) 2023 by ${git_name_email}, All Rights Reserved. 
 -->
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
+import { RouterView } from 'vue-router'
 import NavBar from './components/NavBar.vue'
 
 </script>
 
 <template>
   <NavBar class="fixed top-0 left-0 right-0"/>
-  <div class="">
+  <div class="mt-16 max-w-4xl">
     <RouterView />
   </div>
   
 </template>
 
 <style scoped>
-header {
+/* header {
   line-height: 1.5;
   max-height: 100vh;
-}
-
+} 
+ 
 .logo {
   display: block;
   margin: 0 auto 2rem;
@@ -37,8 +37,8 @@ nav {
   width: 100%;
   font-size: 12px;
   text-align: center;
-  margin-top: 2rem;
-}
+  margin-top: 2rem; 
+ }
 
 nav a.router-link-exact-active {
   color: var(--color-text);
@@ -83,5 +83,5 @@ nav a:first-of-type {
     padding: 1rem 0;
     margin-top: 1rem;
   }
-}
+} */
 </style>

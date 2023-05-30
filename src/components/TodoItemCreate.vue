@@ -2,7 +2,7 @@
  * @Author: magnum_zx
  * @Date: 2023-05-25 13:37:46
  * @LastEditors: wuzx wzx19980321@163.com
- * @LastEditTime: 2023-05-25 21:08:07
+ * @LastEditTime: 2023-05-30 20:24:38
  * @FilePath: /vue3-todolist/src/components/TodoItemCreate.vue
  * @Description: 
  * 
@@ -10,7 +10,7 @@
 -->
 <template>
     <div>
-        <input v-model="input_data" placeholder="add your todo item" class="input input-bordered w-full max-w-xs"
+        <input v-model="input_data" placeholder="add your todo item" class="input input-bordered w-full max-w-lg"
             @keyup.enter="onSubmit(input_data)" />
     </div>
 </template>

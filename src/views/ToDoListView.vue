@@ -3,7 +3,7 @@
   components: { TodoItem }, magnum_zx
  * @Date: 2023-05-24 19:37:48
  * @LastEditors: wuzx wzx19980321@163.com
- * @LastEditTime: 2023-05-25 21:32:00
+ * @LastEditTime: 2023-05-30 20:43:41
  * @FilePath: /vue3-todolist/src/views/TodolistView.vue
  * @Description: 
  * 
@@ -13,16 +13,14 @@
     <!-- <div class="text-5xl">
         todo-list
     </div> -->
-    <div class="hero w-screen p-0 m-0 min-h-screen bg-base-200">
-        <div class="hero-content flex-col lg:flex-row">
-            <TodoItemCreate class="" @submit="submit" />
-            <div class="block">
-                <ul class="list-outside">
-                    <li v-for="item in itemList" :key="item.id">
-                        <TodoItem :list-item="item" @close="close" />
-                    </li>
-                </ul>
-            </div>
+    <div class="min-h-screen bg-base-200">
+        <TodoItemCreate class="mt-16 p-32 pt-16 pb-10" @submit="submit" />
+        <div class="flex justify-center">
+            <ul class="list-outside w-52">
+                <li v-for="item in itemList" :key="item.id">
+                    <TodoItem :list-item="item" @close="close" />
+                </li>
+            </ul>
         </div>
     </div>
 </template>
